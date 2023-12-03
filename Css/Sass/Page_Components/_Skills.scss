@@ -1,0 +1,116 @@
+// Skills
+
+.skills {
+  flex: 0 0 100%;
+  max-width: 100%;
+
+  .skill-item {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+
+    &:not(.top3Skills) {
+      margin-top: 60px;
+    }
+
+    &:hover img {
+      transform: rotateX(-45deg) rotateY(30deg);
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+
+      img {
+        width: 15%;
+        margin-right: 20px;
+        transition: all 0.5s;
+      }
+
+      h2 {
+        font-size: 18px;
+        color: var(--text-black-700);
+        font-weight: 500;
+        margin-bottom: 0;
+        font-style: italic;
+      }
+    }
+
+    .progress {
+      background-color: #ddd;
+      border-radius: 20px;
+      height: 7px;
+      margin-top: 20px;
+
+      .progress-bar {
+        border-radius: 20px;
+        height: 7px;
+        transition: width 2.5s linear;
+      }
+    }
+
+    // Html
+    .html_prog {
+      background: linear-gradient(to left, #f5af19, #f12711);
+    }
+
+    // Css
+    .css_prog {
+      background: linear-gradient(90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(67, 9, 121, 1) 13%,
+          rgba(9, 212, 255, 1) 100%);
+    }
+
+    // Js
+    .js_prog {
+      background: linear-gradient(to left, #ee9b00, #fffc00);
+    }
+
+    // Bootstrap
+    .Bootstrap_prog {
+      background: linear-gradient(to right, #523c85, #673ab7);
+    }
+
+    // ES6
+    .es_prog {
+      background: linear-gradient(to left, #ee9b00, #fffc00);
+
+    }
+
+    // jquery
+    .Jquery_prog {
+      background: linear-gradient(to right, royalblue, rgba(0, 0, 0, 0.753));
+    }
+
+    // AJAX
+    .Ajax_prog {
+      background: linear-gradient(to right, #92fe9d, #00c9ff);
+    }
+
+    // Sass
+    .SASS_prog {
+      background: linear-gradient(to right, #f15f79, #b24592);
+    }
+
+    // React.js
+    .React_js_prog {
+      background: #36d1dc;
+    }
+
+    // Redux
+    .redux_prog {
+      background: #673ab7;
+    }
+
+    // Next.js
+    .next_js_prog {
+      background: #000;
+    }
+
+    // GitHup
+    .GitHup_prog {
+      background: linear-gradient(to left, #434343, #000000);
+    }
+  }
+}
