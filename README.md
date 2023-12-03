@@ -11,5 +11,5 @@ This is my personal website. I have used all my skills in this project and added
 3. js
  
 
-![preview](https://i.imgur.com/B3aUfN7.png)
-# personal-site
+
+
